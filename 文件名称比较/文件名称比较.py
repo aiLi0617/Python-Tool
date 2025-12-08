@@ -3,7 +3,6 @@ import os
 # 要排除的文件名（可扩展为多个）
 EXCLUDE_FILES = {"文件名称比较.py"}  # 使用 set 提升查找效率
 
-
 def get_all_files_recursive(exclude_set=None):
     """递归获取当前目录及子目录中所有文件的文件名，排除指定文件"""
     if exclude_set is None:
@@ -69,6 +68,7 @@ def compare_files_by_name(provided_paths, exclude_set=None):
 
 # ===== 使用示例 =====
 if __name__ == "__main__":
+    # 当前目录及子目录中的所有文件名
     # 替换为你自己的文件路径列表
     my_file_paths = [
         "agreement/product202510/8so3kIQk2W.png",

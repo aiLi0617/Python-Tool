@@ -1,7 +1,7 @@
 import os
 import shutil
 
-# === 配置区：在这里填写你的目标路径列表 ===
+# === 配置区：在这里填写你的目标路径列表,需要复制文件，放在当前目录下 ===
 TARGET_PATHS = [
         "agreement/product202510/8so3kIQk2W.png",
         "agreement/product202510/xYYuXSYjXw.png",
