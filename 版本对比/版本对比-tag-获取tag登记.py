@@ -132,6 +132,7 @@ zookeeper                      3.9.0
 doc_tag = '''
 '''
 
+from collections import Counter
 
 pre_list = pre_tag.split()
 pre_map = dict()
@@ -151,13 +152,32 @@ for i in range(0, len(doc_list), 2):
 for i, val in doc_map.items():
     prd_map[i] = doc_map[i]
 
-# print(prd_map - doc_map)
-res = ""
-for k, v in pre_map.items():
-    if k not in prd_map:
-        res+= "{}不在doc中 \n".format(k)
-        continue
-    if pre_map[k] != prd_map[k]:
-        res += ("pre {}: {} != prd {}: {} \n").format(k, pre_map[k], k,prd_map[k])
+# Step 1: 收集有效 (value, key)
+pairs = []
+for k in pre_map:
+    if k in prd_map and pre_map[k] != prd_map[k]:
+        pairs.append((pre_map[k], k))
 
-print(res)
+# Step 2: 统计每个 value 的出现次数
+value_count = Counter(v for v, _ in pairs)
+
+# Step 3: 分组
+duplicates = []  # value 出现 >=2 次
+uniques = []     # value 出现 ==1 次
+
+for v, k in pairs:
+    if value_count[v] >= 2:
+        duplicates.append((v, k))
+    else:
+        uniques.append((v, k))
+
+# Step 4: 排序（先按 value，再按 key 保证稳定）
+duplicates.sort(key=lambda x: (x[0], x[1]))
+uniques.sort(key=lambda x: (x[0], x[1]))
+
+# Step 5: 合并并输出
+res_excel = ""
+for v, k in duplicates + uniques:
+    res_excel += f"{v}\t{k}\n"
+
+print(res_excel)
