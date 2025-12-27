@@ -10,7 +10,7 @@ broker-agent-orch              20251222092839
 broker-api-gateway             20251222092839
 broker-api-orch                20251222134415
 broker-business-backend-gateway 20251222092839
-broker-business-backend-orch   20251222134415
+broker-business-backend-orch   20251224190317
 broker-business-frontend-gateway 20251222092839
 broker-business-frontend-orch  20251222092839
 broker-common-cmb-client-biz   20251222092839
@@ -23,7 +23,7 @@ broker-common-module-gateway   20251222092839
 broker-common-module-log-biz   20251222092839
 broker-common-module-operate-statistics-biz 20251222092839
 broker-common-module-user-statistics-biz 20251222092839
-broker-common-rgst-client-biz  20251222092839
+broker-common-rgst-client-biz  20251222174833
 broker-common-sub-account-module-biz 20251222092839
 broker-common-sub-account-orch-biz 20251222092839
 broker-common-transaction-manager-module-biz 20251222092839
@@ -33,17 +33,17 @@ broker-module-agent-biz        20251222092839
 broker-module-auth-biz         20251222092839
 broker-module-base-biz         20251222092839
 broker-module-listing-biz      20251222092839
-broker-module-member-user-biz  20251222092839
+broker-module-member-user-biz  20251224190317
 broker-module-operate-user-biz 20251222092839
 broker-module-operate-wallet-biz 20251222092839
 broker-module-product-biz      20251222092839
 broker-module-saas-platform-biz 20251022181010
-broker-module-settlement-biz   20251222103108
+broker-module-settlement-biz   20251225101837
 broker-module-user-collect-biz 20251222092839
 broker-open-api-gateway        20251222092839
 broker-open-api-orch           20251222092839
 broker-operate-gateway         20251222092839
-broker-operate-orch            20251222134415
+broker-operate-orch            20251225101837
 broker-portal-gateway          20251222092839
 broker-portal-orch             20251222092839
 broker-rgst-api-gateway        20251222092839
@@ -63,7 +63,7 @@ tdengine                       3.2.3.0
 web-broker-admin               20251222093658
 web-broker-saas-admin          20251022153622
 web-lego-builder               20251022152357
-web-merchant-backend-base      20251222093658
+web-merchant-backend-base      20251223103824
 xxl-job-admin                  2.3.1
 zookeeper                      3.9.0
 '''
@@ -155,7 +155,11 @@ for i, val in doc_map.items():
 # Step 1: 收集有效 (value, key)
 pairs = []
 for k in pre_map:
-    if k in prd_map and pre_map[k] != prd_map[k]:
+    if k not in prd_map:
+        # pre 有，prd 没有 → 视为需要列出
+        pairs.append((pre_map[k], k))
+    elif pre_map[k] != prd_map[k]:
+        # pre 和 prd 都有，但 tag 不同
         pairs.append((pre_map[k], k))
 
 # Step 2: 统计每个 value 的出现次数
