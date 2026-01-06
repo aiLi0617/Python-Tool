@@ -92,7 +92,7 @@ def main():
         var_1 = f"@FILE_{idx}_1"
         var_2 = f"@FILE_{idx}_2"
 
-        # --- 第一条：ownership = 1（对应重命名后的文件1）---
+        # --- 第一条：ownership = 1 ---
         sql_lines.append(f"-- 原始文件 {orig_file.name} → {new_name_1} | ownership = 1")
         sql_lines.append(f"SET {var_1} = (@ID := @ID + 1);")
         sql_lines.append(f"SET @FILE_NAME = '{new_name_1}';")
@@ -100,8 +100,13 @@ def main():
         sql_lines.append(
             f"INSERT INTO `broker4infra`.`file_attachment` "
             f"(`id`, `name`, `path`, `url`, `type`, `size`, `creator`, `create_time`, `updater`, `update_time`, `deleted`, `status`, `bucket_name`) "
-            f"VALUES ({var_1}, @FILE_NAME, '{PATH_PREFIX}' + @FILE_NAME, "
-            f"'{URL_BASE}' + @FILE_NAME + '?{QUERY_STRING}', '{MIME_TYPE}', {file_size}, NULL, '{CREATE_TIME}', NULL, '{CREATE_TIME}', b'0', 0, @BUCKET_NAME);"
+            f"VALUES ("
+            f"{var_1}, "
+            f"@FILE_NAME, "
+            f"CONCAT('{PATH_PREFIX}', @FILE_NAME), "
+            f"CONCAT('{URL_BASE}', @FILE_NAME, '?{QUERY_STRING}'), "
+            f"'{MIME_TYPE}', {file_size}, NULL, '{CREATE_TIME}', NULL, '{CREATE_TIME}', b'0', 0, @BUCKET_NAME"
+            f");"
         )
         sql_lines.append(
             f"UPDATE broker4settlement.transaction_flow_detail "
@@ -110,7 +115,7 @@ def main():
         )
         sql_lines.append("")
 
-        # --- 第二条：ownership = 0（对应副本文件2）---
+        # --- 第二条：ownership = 0 ---
         sql_lines.append(f"-- 副本 {new_name_2} | ownership = 0")
         sql_lines.append(f"SET {var_2} = (@ID := @ID + 1);")
         sql_lines.append(f"SET @FILE_NAME = '{new_name_2}';")
@@ -118,8 +123,13 @@ def main():
         sql_lines.append(
             f"INSERT INTO `broker4infra`.`file_attachment` "
             f"(`id`, `name`, `path`, `url`, `type`, `size`, `creator`, `create_time`, `updater`, `update_time`, `deleted`, `status`, `bucket_name`) "
-            f"VALUES ({var_2}, @FILE_NAME, '{PATH_PREFIX}' + @FILE_NAME, "
-            f"'{URL_BASE}' + @FILE_NAME + '?{QUERY_STRING}', '{MIME_TYPE}', {file_size}, NULL, '{CREATE_TIME}', NULL, '{CREATE_TIME}', b'0', 0, @BUCKET_NAME);"
+            f"VALUES ("
+            f"{var_2}, "
+            f"@FILE_NAME, "
+            f"CONCAT('{PATH_PREFIX}', @FILE_NAME), "
+            f"CONCAT('{URL_BASE}', @FILE_NAME, '?{QUERY_STRING}'), "
+            f"'{MIME_TYPE}', {file_size}, NULL, '{CREATE_TIME}', NULL, '{CREATE_TIME}', b'0', 0, @BUCKET_NAME"
+            f");"
         )
         sql_lines.append(
             f"UPDATE broker4settlement.transaction_flow_detail "
