@@ -12,16 +12,21 @@ PDF_DIR = "receipts"  # PDF 所在目录
 
 # 映射：原始文件名（必须存在于 PDF_DIR 中） => BANK_SERIAL_NO
 FILE_TO_SERIAL = {
-    "cb1bb0ba3fe14145b917edf09e065f23.pdf": "1453062851479605248",
-    "3687224b68c54efc883d53cad8574510.pdf": "1453032652549525505",
-    "12268813dd514c9287af8ce3f4541f53.pdf": "1452676807433261056",
     # "old_name.pdf": "1453062851479605249",
+    "b18db049d5a34a7d94ff1cc304cfa0d3.pdf": "1457375266916667392",
+    "2e1cf3401b6f41aa8e1993f6a4a910f4.pdf": "1457375267671642112",
+    "cac35e591fb243baa1e1096766ada0fe.pdf": "1457335001568907264",
+    "de5ae7c6d54c49f7ae90e3a534ab7a61.pdf": "1455612150541324288",
+    "efed4e0769aa43d5b176d70112033f19.pdf": "1455612151375990784",
+    "1a09ea5eace5471ea94b14077515ecb2.pdf": "1455612152135159808",
+    "e5ec21dfef8a41c5b6c01507741d1d85.pdf": "1455612152923688960",
+    "7e24ffca70c84318bcda190ea6da7ae2.pdf": "1455612153708023808",
 }
 
 # ==============================
 # ⚙️ 全局参数
 # ==============================
-BUCKET_NAME = "broker-cloud-pre-server"
+BUCKET_NAME = "broker-cloud-prd-server"
 PATH_PREFIX = "rgst-bank-receipt/202512/"
 URL_BASE = f"https://{BUCKET_NAME}.obs.cn-south-1.myhuaweicloud.com:443/{PATH_PREFIX}"
 QUERY_STRING = "AccessKeyId=SGHTWJV6RZGRUYH706N9&Expires=1766509248&Signature=ekvKW2UznDzMQ1JRE5rM1bI4gGI%3D"
