@@ -115,7 +115,7 @@ for record in records:
     if customer_name != current_customer:
         sql_lines.append(f"SET @CUSTOMER_NAME = '{customer_name}';")
         sql_lines.append(
-            "SET @TENANT_ID = (SELECT id FROM broker4operate_v2.opt_tenant WHERE `name` = @CUSTOMER_NAME);")
+            "SET @TENANT_ID = (SELECT id FROM broker4operate_user_v2.opr_tenant WHERE `name` = @CUSTOMER_NAME COLLATE utf8mb4_0900_ai_ci);")
         sql_lines.append("")
         current_customer = customer_name
 
