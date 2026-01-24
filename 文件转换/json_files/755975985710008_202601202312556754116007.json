@@ -1,0 +1,230 @@
+{
+    "response": {
+        "body": {
+            "ntdmabalz": [
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "3522.72",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "默认记账子单元",
+                    "dmanbr": "0000000000",
+                    "eftdat": "20240926",
+                    "mthaub": "668882.40",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "北京国信兴业创世科技有限公司可用余额账户",
+                    "dmanbr": "1000000505",
+                    "eftdat": "20240929",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "北京国信兴业创世科技有限公司保证金账户",
+                    "dmanbr": "1000000506",
+                    "eftdat": "20240929",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "北京国信兴业创世科技有限公司云商服务费账户",
+                    "dmanbr": "1000000507",
+                    "eftdat": "20240929",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "北京国信兴业创世科技有限公司经纪商服务费账户",
+                    "dmanbr": "1000000508",
+                    "eftdat": "20240929",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "北京国信兴业创世科技有限公司货款账户",
+                    "dmanbr": "1000000509",
+                    "eftdat": "20240929",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "国信国际工程咨询集团股份有限公司可用余额账户",
+                    "dmanbr": "1000000510",
+                    "eftdat": "20241009",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "国信国际工程咨询集团股份有限公司保证金账户",
+                    "dmanbr": "1000000511",
+                    "eftdat": "20241009",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "国信国际工程咨询集团股份有限公司云商服务费账户",
+                    "dmanbr": "1000000512",
+                    "eftdat": "20241009",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "国信国际工程咨询集团股份有限公司经纪商服务费账户",
+                    "dmanbr": "1000000513",
+                    "eftdat": "20241009",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "国信国际工程咨询集团股份有限公司货款账户",
+                    "dmanbr": "1000000514",
+                    "eftdat": "20241009",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "国信兴业国际工程咨询有限公司可用余额账户",
+                    "dmanbr": "1000000567",
+                    "eftdat": "20250508",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "95241.12",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "国信兴业国际工程咨询有限公司冻结账户",
+                    "dmanbr": "1000000572",
+                    "eftdat": "20250508",
+                    "mthaub": "8019186.38",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "慢慢跑（郑州）文化体育有限公司冻结账户",
+                    "dmanbr": "1000027739",
+                    "eftdat": "20251210",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "河北省增智文化传媒有限公司冻结账户",
+                    "dmanbr": "1000027740",
+                    "eftdat": "20251210",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "17464.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "黑龙江省松粳科技有限责任公司冻结账户",
+                    "dmanbr": "1000027741",
+                    "eftdat": "20251210",
+                    "mthaub": "59708.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "四川子非鱼生物科技有限公司冻结账户",
+                    "dmanbr": "1000027742",
+                    "eftdat": "20251210",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "274055.70",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市本胜商贸有限公司冻结账户",
+                    "dmanbr": "1000027743",
+                    "eftdat": "20251210",
+                    "mthaub": "-3422614.92",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755975985710008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "国信兴业国际工程咨询有限公司冻结账户",
+                    "dmanbr": "1000027748",
+                    "eftdat": "20260119",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                }
+            ]
+        },
+        "head": {
+            "bizcode": "",
+            "funcode": "NTDMABAL",
+            "reqid": "202601202312556754116007",
+            "resultcode": "SUC0000",
+            "resultmsg": "",
+            "rspid": "202601202312557380001ver-lpako-86657fff8d-bpk2z",
+            "userid": "U033719471"
+        }
+    },
+    "signature": {
+        "sigdat": "Wu4JcwMVUxg0nB8ORJ6QIRKgfCVVIiAvT/mUh+GAS9Gt6/MBvce+QVu6ddqc4pZ8M4MybtfXtw1jHbClgqIf1w==",
+        "sigtim": "20260120231255"
+    }
+}

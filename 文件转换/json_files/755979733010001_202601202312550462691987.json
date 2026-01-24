@@ -1,0 +1,76 @@
+{
+    "response": {
+        "body": {
+            "ntdmabalz": [
+                {
+                    "accnbr": "755979733010001",
+                    "actbal": "-136307.25",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "默认记账子单元",
+                    "dmanbr": "0000000000",
+                    "eftdat": "20250704",
+                    "mthaub": "-2725845.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755979733010001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市本胜商贸有限公司冻结账户",
+                    "dmanbr": "1000000817",
+                    "eftdat": "20250716",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755979733010001",
+                    "actbal": "136740.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "仁怀高尔夫酒销售有限公司冻结账户",
+                    "dmanbr": "1000000818",
+                    "eftdat": "20250716",
+                    "mthaub": "2734800.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755979733010001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市凤凰一代传媒有限公司冻结账户",
+                    "dmanbr": "1000027745",
+                    "eftdat": "20251217",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755979733010001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "前海长城基金管理（深圳）有限公司冻结账户",
+                    "dmanbr": "1000027747",
+                    "eftdat": "20260107",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                }
+            ]
+        },
+        "head": {
+            "bizcode": "",
+            "funcode": "NTDMABAL",
+            "reqid": "202601202312550462691987",
+            "resultcode": "SUC0000",
+            "resultmsg": "",
+            "rspid": "202601202312551080001ver-lpako-5b646b7948-bzzzf",
+            "userid": "U045878659"
+        }
+    },
+    "signature": {
+        "sigdat": "w/HLTkMdqy0NGjm79l+d0pqh0OrKFWb1dkm8CAOAQUlSATnKvMCmY7dJCIX5/4O6RZJxycnXfGIvQBu2iOOc3A==",
+        "sigtim": "20260120231255"
+    }
+}

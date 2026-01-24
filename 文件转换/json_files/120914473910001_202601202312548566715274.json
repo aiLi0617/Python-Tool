@@ -1,0 +1,65 @@
+{
+    "response": {
+        "body": {
+            "ntdmabalz": [
+                {
+                    "accnbr": "120914473910001",
+                    "actbal": "875.15",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "默认记账子单元",
+                    "dmanbr": "0000000000",
+                    "eftdat": "20250715",
+                    "mthaub": "17803.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "120914473910001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "广州美盈智能科技有限公司冻结账户",
+                    "dmanbr": "1000000816",
+                    "eftdat": "20250716",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "120914473910001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳慧通互联商业有限公司冻结账户",
+                    "dmanbr": "1000027744",
+                    "eftdat": "20251213",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "120914473910001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "广州美盈智能科技有限公司冻结账户",
+                    "dmanbr": "1000027746",
+                    "eftdat": "20251229",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                }
+            ]
+        },
+        "head": {
+            "bizcode": "",
+            "funcode": "NTDMABAL",
+            "reqid": "202601202312548566715274",
+            "resultcode": "SUC0000",
+            "resultmsg": "",
+            "rspid": "202601202312549230001ver-lpako-86657fff8d-stk6l",
+            "userid": "U046019801"
+        }
+    },
+    "signature": {
+        "sigdat": "SFRDFQqtpuTHWVeoxzstK4G84Q2KPLzvE1Qo7mFNNRllgZaHTeKPxxcMSNw6TPxvVpOlJpc3PiJOKWLBeCBZrg==",
+        "sigtim": "20260120231254"
+    }
+}

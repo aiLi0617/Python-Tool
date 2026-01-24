@@ -1,0 +1,131 @@
+{
+    "response": {
+        "body": {
+            "ntdmabalz": [
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "-1939.26",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "默认记账子单元",
+                    "dmanbr": "0000000000",
+                    "eftdat": "20250114",
+                    "mthaub": "-21475.20",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "企连网供应链（深圳）有限公司冻结账户",
+                    "dmanbr": "1000000800",
+                    "eftdat": "20250715",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "4200.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市英维克健康环境科技有限公司冻结账户",
+                    "dmanbr": "1000000801",
+                    "eftdat": "20250715",
+                    "mthaub": "89950.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "伯乐云链科技（深圳）有限公司冻结账户",
+                    "dmanbr": "1000000802",
+                    "eftdat": "20250715",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "企连网供应链（深圳）有限公司冻结账户",
+                    "dmanbr": "1000000808",
+                    "eftdat": "20250715",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "广西崇左市工投产业物流有限公司冻结账户",
+                    "dmanbr": "1000000822",
+                    "eftdat": "20250805",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "伯乐云链科技（重庆）有限公司冻结账户",
+                    "dmanbr": "1000000823",
+                    "eftdat": "20250905",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "伯乐云链科技（湖南）有限公司冻结账户",
+                    "dmanbr": "1000000826",
+                    "eftdat": "20250922",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市天润物资供应链有限公司冻结账户",
+                    "dmanbr": "1000004151",
+                    "eftdat": "20251106",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755977205610008",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "伯乐云链（深圳）生态服务有限公司冻结账户",
+                    "dmanbr": "1000004928",
+                    "eftdat": "20251107",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                }
+            ]
+        },
+        "head": {
+            "bizcode": "",
+            "funcode": "NTDMABAL",
+            "reqid": "202601202312546384979368",
+            "resultcode": "SUC0000",
+            "resultmsg": "",
+            "rspid": "202601202312547070001ver-lpako-86657fff8d-4jpgd",
+            "userid": "U037590859"
+        }
+    },
+    "signature": {
+        "sigdat": "q/dTjF2nU/l0nPrU8L14ULFPVvCpjlFTYQYYrj46cQTPYj2TIIWt+HT9rfYlWkwSBo6cR/X5BSydI65Uib9+BA==",
+        "sigtim": "20260120231254"
+    }
+}

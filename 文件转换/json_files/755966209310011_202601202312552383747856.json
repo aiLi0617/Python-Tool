@@ -1,0 +1,197 @@
+{
+    "response": {
+        "body": {
+            "ntdmabalz": [
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "9541.73",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "默认记账子单元",
+                    "dmanbr": "0000000000",
+                    "eftdat": "20240927",
+                    "mthaub": "191134.60",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "鹏博信息技术(深圳)有限公司可用余额账户",
+                    "dmanbr": "1000000515",
+                    "eftdat": "20241010",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "鹏博信息技术(深圳)有限公司保证金账户",
+                    "dmanbr": "1000000516",
+                    "eftdat": "20241010",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "鹏博信息技术(深圳)有限公司云商服务费账户",
+                    "dmanbr": "1000000517",
+                    "eftdat": "20241010",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "鹏博信息技术(深圳)有限公司经纪商服务费账户",
+                    "dmanbr": "1000000518",
+                    "eftdat": "20241010",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "鹏博信息技术(深圳)有限公司冻结账户",
+                    "dmanbr": "1000000519",
+                    "eftdat": "20241010",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "上海爱聚网络科技有限公司可用余额账户",
+                    "dmanbr": "1000000530",
+                    "eftdat": "20241017",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "上海爱聚网络科技有限公司保证金账户",
+                    "dmanbr": "1000000531",
+                    "eftdat": "20241017",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "上海爱聚网络科技有限公司云商服务费账户",
+                    "dmanbr": "1000000532",
+                    "eftdat": "20241017",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "上海爱聚网络科技有限公司经纪商服务费账户",
+                    "dmanbr": "1000000533",
+                    "eftdat": "20241017",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "上海爱聚网络科技有限公司冻结账户",
+                    "dmanbr": "1000000534",
+                    "eftdat": "20241017",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "鹏博信息技术（深圳）有限公司可用余额账户",
+                    "dmanbr": "1000000565",
+                    "eftdat": "20250508",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "鹏博信息技术（深圳）有限公司冻结账户",
+                    "dmanbr": "1000000573",
+                    "eftdat": "20250508",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市数元信息技术有限公司冻结账户",
+                    "dmanbr": "1000000577",
+                    "eftdat": "20250515",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "华为云计算技术有限公司冻结账户",
+                    "dmanbr": "1000000580",
+                    "eftdat": "20250620",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755966209310011",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市澎湃创新科技有限公司冻结账户",
+                    "dmanbr": "1000000581",
+                    "eftdat": "20250623",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                }
+            ]
+        },
+        "head": {
+            "bizcode": "",
+            "funcode": "NTDMABAL",
+            "reqid": "202601202312552383747856",
+            "resultcode": "SUC0000",
+            "resultmsg": "",
+            "rspid": "202601202312553020001ver-lpako-86657fff8d-gkzkj",
+            "userid": "U014753882"
+        }
+    },
+    "signature": {
+        "sigdat": "RQLnFLHkz7L7N1xooC9JB5Pz+N4q50ME4eQJOPsB++N5pN6hWwviQxOe2H9WSbTF5KI0cHcVYUxB/0FUUi+CZg==",
+        "sigtim": "20260120231255"
+    }
+}

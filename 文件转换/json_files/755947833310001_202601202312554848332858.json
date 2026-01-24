@@ -1,0 +1,87 @@
+{
+    "response": {
+        "body": {
+            "ntdmabalz": [
+                {
+                    "accnbr": "755947833310001",
+                    "actbal": "150.11",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "默认记账子单元",
+                    "dmanbr": "0000000000",
+                    "eftdat": "20250630",
+                    "mthaub": "3302.20",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755947833310001",
+                    "actbal": "316.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市普而惠投资控股有限公司冻结账户",
+                    "dmanbr": "1000000819",
+                    "eftdat": "20250717",
+                    "mthaub": "6320.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755947833310001",
+                    "actbal": "-316.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市普而惠茶业发展股份有限公司冻结账户",
+                    "dmanbr": "1000000820",
+                    "eftdat": "20250718",
+                    "mthaub": "-6320.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755947833310001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市润庭投资中心冻结账户",
+                    "dmanbr": "1000000821",
+                    "eftdat": "20250802",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755947833310001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市夏至灼灼科技有限责任公司冻结账户",
+                    "dmanbr": "1000000824",
+                    "eftdat": "20250913",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755947833310001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳齐心集团股份有限公司冻结账户",
+                    "dmanbr": "1000000825",
+                    "eftdat": "20250916",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                }
+            ]
+        },
+        "head": {
+            "bizcode": "",
+            "funcode": "NTDMABAL",
+            "reqid": "202601202312554848332858",
+            "resultcode": "SUC0000",
+            "resultmsg": "",
+            "rspid": "202601202312555490001ver-lpako-86657fff8d-4jpgd",
+            "userid": "U046007611"
+        }
+    },
+    "signature": {
+        "sigdat": "yrSH+2SGWuMMomxa8PR3gMZpLMM6v6oEqD8U43OC+tRfKguu5mE/a47U3L4p85hzLYEg6xVzCv68VmS/tGIR3g==",
+        "sigtim": "20260120231255"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "response": {
+        "body": {
+            "ntdmabalz": [
+                {
+                    "accnbr": "755978994310001",
+                    "actbal": "1651.47",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "默认记账子单元",
+                    "dmanbr": "0000000000",
+                    "eftdat": "20250509",
+                    "mthaub": "33029.40",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755978994310001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "755978994310001",
+                    "dmanbr": "1000000577",
+                    "eftdat": "20250714",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                },
+                {
+                    "accnbr": "755978994310001",
+                    "actbal": "0.00",
+                    "balflg": "Y",
+                    "dmaccy": "10",
+                    "dmanam": "深圳市灵创星海科技有限公司冻结账户",
+                    "dmanbr": "1000000578",
+                    "eftdat": "20250714",
+                    "mthaub": "0.00",
+                    "stscod": "A"
+                }
+            ]
+        },
+        "head": {
+            "bizcode": "",
+            "funcode": "NTDMABAL",
+            "reqid": "202601202312543764633751",
+            "resultcode": "SUC0000",
+            "resultmsg": "",
+            "rspid": "202601202312545070001ver-lpako-86657fff8d-gkzkj",
+            "userid": "U043460054"
+        }
+    },
+    "signature": {
+        "sigdat": "5sO17gyPFbuEOa+vYfPCh8SaqcheCZhWjCnNtJbp8yFvNwuXYdKEVZEJ7VW2UyhoxUfAkUDtGpauV7o1XO20CQ==",
+        "sigtim": "20260120231254"
+    }
+}
